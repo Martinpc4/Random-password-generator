@@ -27,10 +27,10 @@ try:
 except:
     print("You can only enter integer values")
     quit()
-length = input("How many characters should each section have? ")
+clength = input("How many characters should each section have? ")
 try:
     clength = int(clength)
+    generator(length = clength, n_of_iterations = noi)
 except:
     print("You can only enter integer values")
     quit()
-generator(length = clength, n_of_iterations = noi)
