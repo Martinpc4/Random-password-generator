@@ -1,6 +1,6 @@
 import random
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
-
+#Genrator's algorithm
 def generator(length, n_of_iterations):
     counter = 0
     while counter < n_of_iterations:
@@ -16,7 +16,7 @@ def generator(length, n_of_iterations):
         counter += 1
         password = sec1 + "-" + sec2 + "-" + sec3
         print(password)
-
+#Concatenation to form final password
 def final_password(sec1, sec2, sec3):
     password = sec1 + "-" + sec2 + "-" + sec3
     print(password)
