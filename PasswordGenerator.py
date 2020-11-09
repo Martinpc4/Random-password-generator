@@ -1,6 +1,6 @@
 import random
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
-#Generator Algorithm
+
 def generator(length, n_of_iterations):
     counter = 0
     while counter < n_of_iterations:
